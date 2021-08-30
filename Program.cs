@@ -49,7 +49,11 @@ namespace handgame
           Console.WriteLine("\n");
           while (playing)
           {
-            Console.Clear();
+              Console.Clear();
+            var rand = new Random();
+                Console.Write("{0,8:N0}", rand.Next(3));
+                Console.WriteLine();
+            
             Console.WriteLine("Moves: ");
             for (int i = 0; i < moves.Choices.Count; i++)
             {
@@ -68,18 +72,23 @@ namespace handgame
             {
               Console.WriteLine("You Choose Rock!");
               Thread.Sleep(2500);
+              Console.WriteLine("Want to play Again? (y/n)");
+              char playAgain = Console.ReadKey().KeyChar;
+              if (playAgain == 'n')
+                {
+                playing = false;
+                Console.WriteLine("\n");
+                Console.WriteLine("At least we played A little. See you next time " + name + "!");
+                }
+              else{
+                Console.WriteLine("Great, lets go again!");
+              }
             }
             else if (pChoice.Name == "scissors")
             {
               Console.WriteLine("You Choose Scissors!");
               Thread.Sleep(2500);
-            }
-            else if (pChoice.Name == "paper")
-            {
-              Console.WriteLine("You Choose Paper!");
-              Thread.Sleep(2500);
-            }
-            Console.WriteLine("Want to play Again? (y/n)");
+              Console.WriteLine("Want to play Again? (y/n)");
             char playAgain = Console.ReadKey().KeyChar;
             if (playAgain == 'n')
             {
@@ -89,6 +98,23 @@ namespace handgame
             }
             else{
               Console.WriteLine("Great, lets go again!");
+            }
+            }
+            else if (pChoice.Name == "paper")
+            {
+              Console.WriteLine("You Choose Paper!");
+              Thread.Sleep(2500);
+              Console.WriteLine("Want to play Again? (y/n)");
+            char playAgain = Console.ReadKey().KeyChar;
+            if (playAgain == 'n')
+            {
+              playing = false;
+              Console.WriteLine("\n");
+              Console.WriteLine("At least we played A little. See you next time " + name + "!");
+            }
+            else{
+              Console.WriteLine("Great, lets go again!");
+            }
             }
           }
         }
