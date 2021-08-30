@@ -51,9 +51,10 @@ namespace handgame
           {
               Console.Clear();
             var rand = new Random();
-                Console.Write("{0,8:N0}", rand.Next(3));
-                Console.WriteLine();
-            
+            int buddyChoice = rand.Next(3);
+            Console.WriteLine("Cool Buudy Choice : " + buddyChoice);
+            //BuddyChoice 0 = Rock, 1 = Scissors, 2 = paper.
+
             Console.WriteLine("Moves: ");
             for (int i = 0; i < moves.Choices.Count; i++)
             {
@@ -71,6 +72,13 @@ namespace handgame
             else if (pChoice.Name == "rock")
             {
               Console.WriteLine("You Choose Rock!");
+              if(buddyChoice == 0){
+                Console.WriteLine("We Tied!");
+              } else if (buddyChoice == 1){
+                Console.WriteLine("You Won " + name + "! Good Job!");
+              } else {
+                Console.WriteLine("Buddy Wins");
+              }
               Thread.Sleep(2500);
               Console.WriteLine("Want to play Again? (y/n)");
               char playAgain = Console.ReadKey().KeyChar;
@@ -87,6 +95,13 @@ namespace handgame
             else if (pChoice.Name == "scissors")
             {
               Console.WriteLine("You Choose Scissors!");
+              if(buddyChoice == 1){
+                Console.WriteLine("We Tied!");
+              } else if (buddyChoice == 2){
+                Console.WriteLine("You Won " + name + "! Good Job!");
+              } else {
+                Console.WriteLine("Buddy Wins");
+              }
               Thread.Sleep(2500);
               Console.WriteLine("Want to play Again? (y/n)");
             char playAgain = Console.ReadKey().KeyChar;
@@ -103,6 +118,13 @@ namespace handgame
             else if (pChoice.Name == "paper")
             {
               Console.WriteLine("You Choose Paper!");
+              if(buddyChoice == 2){
+                Console.WriteLine("We Tied!");
+              } else if (buddyChoice == 0){
+                Console.WriteLine("You Won " + name + "! Good Job!");
+              } else {
+                Console.WriteLine("Buddy Wins");
+              }
               Thread.Sleep(2500);
               Console.WriteLine("Want to play Again? (y/n)");
             char playAgain = Console.ReadKey().KeyChar;
