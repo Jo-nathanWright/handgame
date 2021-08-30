@@ -1,0 +1,16 @@
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\bin\Debug\net5.0\handgame.exe
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\bin\Debug\net5.0\handgame.deps.json
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\bin\Debug\net5.0\handgame.runtimeconfig.json
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\bin\Debug\net5.0\handgame.runtimeconfig.dev.json
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\bin\Debug\net5.0\handgame.dll
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\bin\Debug\net5.0\ref\handgame.dll
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\bin\Debug\net5.0\handgame.pdb
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\handgame.csproj.AssemblyReference.cache
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\handgame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\handgame.AssemblyInfoInputs.cache
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\handgame.AssemblyInfo.cs
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\handgame.csproj.CoreCompileInputs.cache
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\handgame.dll
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\ref\handgame.dll
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\handgame.pdb
+C:\Program Files\Git\source\codeworks\AfterNoon-Projects\handgame\obj\Debug\net5.0\handgame.genruntimeconfig.cache
