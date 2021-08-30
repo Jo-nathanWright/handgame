@@ -52,7 +52,6 @@ namespace handgame
               Console.Clear();
             var rand = new Random();
             int buddyChoice = rand.Next(3);
-            Console.WriteLine("Cool Buudy Choice : " + buddyChoice);
             //BuddyChoice 0 = Rock, 1 = Scissors, 2 = paper.
 
             Console.WriteLine("Moves: ");
@@ -71,7 +70,8 @@ namespace handgame
             }
             else if (pChoice.Name == "rock")
             {
-              Console.WriteLine("You Choose Rock!");
+              Console.WriteLine("You Picked Rock!");
+              Console.WriteLine("\n");
               if(buddyChoice == 0){
                 Console.WriteLine("We Tied!");
               } else if (buddyChoice == 1){
@@ -94,7 +94,8 @@ namespace handgame
             }
             else if (pChoice.Name == "scissors")
             {
-              Console.WriteLine("You Choose Scissors!");
+              Console.WriteLine("You Picked Scissors!");
+              Console.WriteLine("\n");
               if(buddyChoice == 1){
                 Console.WriteLine("We Tied!");
               } else if (buddyChoice == 2){
@@ -117,7 +118,8 @@ namespace handgame
             }
             else if (pChoice.Name == "paper")
             {
-              Console.WriteLine("You Choose Paper!");
+              Console.WriteLine("You Picked Paper!");
+              Console.WriteLine("\n");
               if(buddyChoice == 2){
                 Console.WriteLine("We Tied!");
               } else if (buddyChoice == 0){
