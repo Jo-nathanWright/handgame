@@ -15,6 +15,7 @@ namespace handgame
       bool deciding = true;
       bool playing = true;
       Console.BackgroundColor = ConsoleColor.Black;
+      Console.ForegroundColor = ConsoleColor.White;
       Console.Clear();
       Console.WriteLine("Initializing Buddy!");
       Thread.Sleep(2000);
